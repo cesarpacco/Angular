@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/card.css">
+    <Script src="src/components/CardNews.js" defer></Script>
+    <script src="src/components/TituloDinamico.js" defer></script>
+    <title>CARD DE NOTICIAS</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="card">
+            <div class="card_left">
+                <span>By Cesar Pacco </span>
+                <!-- <h1>Darth Vader Contrata Dev</h1> -->
+                <a href="#">Darth Vader Contrata Dev</a>
+                <p>Darth Vader procura desenvolvedores que sabem trabalhar com componentes</p>
+            </div>
+            <div class="card_right">
+                <img src="assets/Star_Wars_-_Darth_Vader.jpg" alt="Star_Wars_-_Darth_Vader">
+            </div>
+        </div>
+    </div>
+    <card-news 
+        autor="Cesar Pacco " 
+        Title="Darth Vader Contrata Dev"
+        link="www.google.com"
+        Content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes"
+        img="assets/Star_Wars_-_Darth_Vader.jpg"  alt="Foto da Noticia"
+    ></card-news>
+    <titulo-dinamico titulo="Noticia Urgente"></titulo-dinamico>
+    
+</body>
+</html>
